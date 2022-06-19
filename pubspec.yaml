@@ -1,0 +1,60 @@
+name: mint_it_asses
+description: Mint_It assessment project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  flutter_svg: ^1.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo/F1 Logo_red.png
+    - assets/logo/f1_logo_white.png
+  # logo parts for animation
+    - assets/white_logo_parts/1st_part.png
+    - assets/white_logo_parts/2nd_part.png
+    - assets/white_logo_parts/3rd_part.png
+  # user avatar
+    - assets/icons/avatar.png
+  # players icon images
+    - assets/icons/players/Carlos Sainz.png
+    - assets/icons/players/Charles Leclerc.png
+    - assets/icons/players/Daniel Ricciardo.png
+    - assets/icons/players/Fernando Alonso.png
+    - assets/icons/players/Lando Norris.png
+    - assets/icons/players/Lewis Hamilton.png
+    - assets/icons/players/Max Verstappen.png
+    - assets/icons/players/Pierre Gasly.png
+    - assets/icons/players/Sergio Perez.png
+    - assets/icons/players/Valtteri Bottas.png
+  # snackBar svg icons
+    - assets/icons/icons_svg/bubbles.svg
+    - assets/icons/icons_svg/close.svg
+    - assets/icons/icons_svg/fail.svg
+  fonts:
+   - family: SF_Pro_Rounded
+     fonts:
+       - asset: assets/fonts/SF-Pro-Rounded-Regular.ttf
+   - family: SF_Pro_display_bold
+     fonts:
+       - asset: assets/fonts/SFPRODISPLAYBOLD.OTF
+   - family: SF_Pro_display_medium
+     fonts:
+       - asset: assets/fonts/SFPRODISPLAYMEDIUM.OTF
+   - family: SF_Pro_display_regular
+     fonts:
+       - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
