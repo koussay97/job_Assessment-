@@ -4,7 +4,8 @@ import 'package:provider/provider.dart';
 
 import '../../brand/brand_guid.dart';
 
-import '../../settings/fuction/input_validation.dart';
+
+import '../../utils/fuction/input_validation.dart';
 import 'custom_text_field.dart';
 
 class UserLoginInfoCompartment extends StatefulWidget {

@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 
 import '../core/brand/brand_guid.dart';
 import '../core/shared/ui/custom_red_btn.dart';
-import '../core/shared/ui/custom_snack_bar.dart';
 import '../core/shared/ui/logo_compartment.dart';
 import '../core/shared/ui/user_login_info.dart';
 
