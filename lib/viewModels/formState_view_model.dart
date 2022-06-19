@@ -12,7 +12,10 @@ class FormStateViewModel extends ChangeNotifier {
   String firstName = '';
   String lastName = '';
   String capitalize(String val) {
-    return "${val[0].toUpperCase()}${val.substring(1).toLowerCase()}";
+    var v= '${val[0].toUpperCase().toString()}${val.substring(1).toLowerCase().toString()}';
+  debugPrint(v);
+    return v;
+
   }
   void setFirstName(String value) {
     firstName = capitalize(value);
@@ -20,7 +23,7 @@ class FormStateViewModel extends ChangeNotifier {
   }
 
   void setLastName(String value) {
-    lastName = capitalize(value);
+    lastName =capitalize(value);
     notifyListeners();
   }
 

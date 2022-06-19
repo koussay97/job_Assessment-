@@ -26,7 +26,7 @@ class _AnimatedLogoState extends State<AnimatedLogo>
   initState() {
     super.initState();
     _animationController = AnimationController(
-      duration: const Duration(milliseconds: 800),
+      duration: const Duration(milliseconds: 1000),
       vsync: this,
 
     )..forward();
