@@ -1,4 +1,5 @@
 # mint_it_asses
+design ressource:: https://www.figma.com/file/8u9ElcWO0s8dIMfXKekHy9/Test-Technique-mobile?node-id=0%3A1
 
 in this project i have included some of the best practices in code refactoring, widget exportation,
 applying constraints and code layering.
