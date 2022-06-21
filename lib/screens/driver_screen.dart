@@ -7,8 +7,20 @@ class DriverScreen extends StatefulWidget {
 }
 
 class _DriverScreenState extends State<DriverScreen> {
-  @override
+
+ @override
+ initState(){
+
+   super.initState();
+ }
+ @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(),
+      body: Column(children: [
+        Container(),
+      ],),
+    );
+
   }
 }
